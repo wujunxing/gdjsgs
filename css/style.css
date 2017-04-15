@@ -13,6 +13,7 @@ a{text-decoration:none; color:#747474;}
 a:hover{color:#155e37; _color:inherit; text-decoration:underline; }
 p{margin:0; padding:0;}
 .qcfd{clear:both;}
+.clear{clear:both;}
 div, dl, dt, dd, ul, ol, li, form, input, textarea, select, p, h1, h2, h3, h4, h5, h6,font{color:#666; padding:0; margin:0;}
 em, i, del { font-weight:normal; font-style:normal;}
 body{ background:#fff;color:#666; font: 12px/24px "微软雅黑",Arial,sans-serif; margin:0; height:100%;}
@@ -28,6 +29,8 @@ a:hover{color:#155e37;}
 .fri{float:right;_display:inline;}
 .wrap{width:993px; height:auto; margin:auto}
 .mt{ margin-top:20px}
+.left{ float:left;}
+.right{ float:right;}
 
 .header{width:100%; height:133px; z-index:9; position:relative}
 .head{width:993px; height:133px; margin:auto; background:url(../images/header_bg.jpg) center top no-repeat}
@@ -137,22 +140,20 @@ div.flicking_con a.on { padding:0px; background:#ff9900}
 .news_top .nr ul li span{width:85px; font-size:12px;  float:right; text-align:left; color:#8f8f8f}
 .news_top .nr .hidden {display:none;}
 
-.at{width:991px; height:170px; border:1px solid #e5e5e5; border-radius:2px; background:url(../images/atchina.jpg) left top no-repeat; margin:auto; margin-top:35px;}
-.at .wd{width:286px; float:left; text-align:right}
-.at .case{width:700px; float:right}
-.at .case h3{ width:93px; height:152px; margin:9px 5px 9px 0px; float:left}
-.project{ height:122px; margin-top:8px; }
-.project_nr{ width:567px; height:122px; margin-top:18px; overflow:hidden;}
-.project_nr dt{ width:179px; height:122px; float:left; overflow:hidden; text-align:center; margin:0px 5px}
-.project_nr dt img{width:171px; height:114px; border:4px solid #eeeeee}
-.button{ width:18px;height:67px; overflow:hidden; margin-top:45px; margin-right:10px}
-.button a{ display:block; width:18px; height:33px; background:url(../images/button1.gif) no-repeat;}
-.button .upper a{ margin-bottom:1px;}
-.button .upper a:hover,.button .upper .hover{ background-position:-22px 0;}
-.button .next a{ background-position:-22px -34px;}
-.button .next a:hover,.button .next .hover{ background-position:0 -34px;}
-.left{ float:left;}
-.right{ float:right;}
+.at{width:991px; height:170px; border:1px solid #e5e5e5; border-radius:2px; margin:auto; margin-top:35px;}
+.at .case{}
+.case .moreproject{ width:140px; height:152px; margin-top:9px; float:left; text-align:center;}
+.case .project{ width:840px; height:122px; margin-top:20px; float:right; }
+.project_nr{ width:760px; height:122px; overflow:hidden;}
+.project_nr dt{ width:179px; height:122px; float:left; overflow:hidden; text-align:center; margin:0px 6px}
+.project_nr dt img{width:171px; height:114px; border:4px solid #eeeeee;}
+.project_button{ width:18px;height:67px; overflow:hidden; margin-top:25px; margin-left:20px}
+.project_button a{ display:block; width:18px; height:33px; background:url(../images/button1.gif) no-repeat;}
+.project_button .upper a{ margin-bottom:1px;}
+.project_button .upper a:hover,.project_button .upper .hover{ background-position:-22px 0;}
+.project_button .next a{ background-position:-22px -34px;}
+.project_button .next a:hover,.project_button .next .hover{ background-position:0 -34px;}
+
 
 .banner{width:100%; height:154px;}
 .banner a{width:100%; height:154px; display:block}
@@ -561,34 +562,6 @@ div.flicking_con a.on { padding:0px; background:#ff9900}
 .public_play a { top: 0; left: 0; width: 0; width: 100%; height: 100%; z-index: 9999; position:absolute; }
 
 .public_play a img{ top:50%; left:50%; position:absolute; margin-left:-21px; margin-top:-21px; display:none;}
-
-
-#linkpic3{ position:relative;overflow:hidden;width:204px; height:133px; margin-top:25px; margin-left:73px}
-#linkpic3 .mask{ width:170px;}
-.mask{
-	background: scroll 0 0 #155e37;
-	padding:26px 20px;
-	position:absolute;
-	left:0;
-	top:0;
-	z-index:1;
-	display:none;
-}
-.mask_box{
-	position:relative;
-	width:100%;
-	height:95px;
-}
-.mask_box p{
-	background:url(../images/tit_line.png) repeat-x;
-	width:0;
-	position:absolute;
-	left:0;
-	top:47px;
-	height:3px;
-}
-.mask_box h1{ position:absolute; left:0; top:-20px; vertical-align:baseline;}
-.mask_box h2{ position:absolute; left:0; bottom:-20px; color:#e2e2e2; font-size:12px; text-align:left; line-height:160%}
 
 .sibarLink{ width:179px; height:35px; line-height:35px; background:url(../images/indexLink.jpg) no-repeat; float:left; margin:10px 0px; display:inline; position:relative; /*z-index:199;*/ cursor:pointer}
 .sibarLink span{ padding-left:8px;}

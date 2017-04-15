@@ -283,12 +283,16 @@
             </div>
         </div>
     </div>
+
     <div class="qcfd"></div>
+
     <div class="at">
         <div class="case">
-            <h3><a href="project/"><img src="images/project.jpg" width="93" height="152" /></a></h3>
+            <div class="moreproject">
+                <a href="project/"><img src="images/project.jpg" /></a>
+            </div>
             <div class="project">
-                <div class="project_nr left" style=" overflow:hidden; position:relative">
+                <div class="project_nr left" style="overflow:hidden; position:relative">
                     <div id="xmlist" style="width: 100000px; height:120px; position: absolute;">
                         <dl>
                             <dt><a href="project/"><img src="Upload/SmallPic/LeSeno.Com_2010031516001947204.gif" alt="广州大学城二期机电安装工程华工"></a></dt>
@@ -316,38 +320,23 @@
                         </dl>
                     </div>
                 </div>
-                <div class="button right">
+                <div class="project_button left">
                     <span class="upper"><a href="javascript:;" class="hover" rel="toright"></a></span>
                     <span class="next"><a href="javascript:;" class="" rel="toleft"></a></span>
                 </div>
+                <div class="clear"></div>
             </div>
-        </div>
-        <div class="wd">
-            <div class="linkpic animated delay0d4s fadeIn" id="linkpic3">
-                <a href="about/contact.html">
-                    <img src="images/wd.jpg">
-                    <div class="mask">
-                        <div class="mask_box">
-                            <h1><img src="images/tit3.png" /></h1>
-                            <p>&nbsp;</p>
-                            <h2>
-                                集团经营网点在国内及世界<br />
-                                各地的分布
-                            </h2>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            <div class="clear"></div>
         </div>
     </div>
+
     <div id="diao_1" style="display:none; z-index:999">
         <span class="overlay1"></span>
         <div class="video_tc_sp"></div>
-        <div class="dialog" id="dialog" style=" left:50%; margin-left:-300px; z-index:999">
+        <div class="dialog" id="dialog" style="left:50%; margin-left:-300px; z-index:999">
             <a href="javascript:void(0);" class="ico_close J_close" id="close" onclick="isclose(1)" hidefocus="true"></a>
             <div class="loginbox">
                 <div id="a1"></div>
-                
             </div>
         </div>
     </div>
@@ -454,38 +443,7 @@
     <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
     <script src="js/jquery.easing.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/MSClass.js"></script>
-
-    <script type="text/javascript">
-        var MarqueeDivControl=new Marquee(["MarqueeDiv","MarqueeDivBoxent"],2,0.2,780,85,20,3000,3000,390)//向左翻屏滚动、缓动及跳过等待时间实例
-        document.getElementById("scroll_left").onclick=function(){MarqueeDivControl.Run(2)};	//跳过等待时间向左滚动后保持原向运动
-        document.getElementById("scroll_right").onclick=function(){MarqueeDivControl.Run(3)};	//跳过等待时间向右滚动后保持原向运动
-    </script>
-
     <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
-    <script type="text/javascript">
-      var flashvars={
-        f:'http://www.gdceg.com/data/video/cis.flv',
-        c:0,
-        b:1
-        };
-      var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-      CKobject.embedSWF('ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
-      /*
-      CKobject.embedSWF(播放器路径,容器id,播放器id/name,播放器宽,播放器高,flashvars的值,其它定义也可省略);
-      下面三行是调用html5播放器用到的
-      */
-      var video=['http://www.gdceg.com/data/video/cis.flv->video/flv','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
-      var support=['iPad','iPhone','ios','android+false','msie10+false'];
-      CKobject.embedHTML5('a1','ckplayer_a1',600,400,video,flashvars,support);
-
-
-      function closelights(){//关灯
-        alert(' 本演示不支持开关灯');
-      }
-      function openlights(){//开灯
-        alert(' 本演示不支持开关灯');
-      }
-    </script>
 
     <script type="text/javascript">
 function dom(id){
@@ -500,5 +458,6 @@ function video(id){
     </script>
 
     <script src="js/common.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </body>
 </html>

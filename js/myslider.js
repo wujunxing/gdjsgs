@@ -1,5 +1,4 @@
-﻿//大广告-------------------------------------------------------------------Begin
-var myslider01 = {
+﻿var myslider01 = {
     slidercontent: $("#myslider_content"),
     slideritems: $("#myslider_content .item"),
     slidercount: $("#myslider_content .item").length,
@@ -72,47 +71,3 @@ $("#myslider_container").hover(
         myslider_timer = setInterval(function () { $("#myslider_next").click(); }, 10000);
     }
 )
-//大广告-------------------------------------------------------------------End
-
-
-//新闻滚动-------------------------------------------------------------------Begin
-
-$(function () {
-    $("#news_carousel").tinycarousel({ interval: true });
-    var tinycarousel_data = $("#news_carousel").data("plugin_tinycarousel");
-    $("#news_carousel").hover(
-        function () { tinycarousel_data.stop(); }, function () { tinycarousel_data.start(); }
-    )
-});
-
-//新闻滚动-------------------------------------------------------------------End
-
-
-
-//弹出视频---------------------------------------------------------------Begin
-$("#videoclick").click(function () {
-    layer.open({
-        type: 2,
-        title: false,
-        shadeClose: false,
-        shade: 0.8,
-        area: ['600px', '400px'],
-        content: '/video_pro.html' //iframe的url
-    });
-})
-
-//弹出视频---------------------------------------------------------------End
-
-
-
-//项目展示---------------------------------------------------------------Begin
-
-$(function () {
-    $("#product_carousel").tinycarousel({ interval: true });
-    var tinycarousel_data = $("#product_carousel").data("plugin_tinycarousel");
-    $("#product_carousel").hover(
-        function () { tinycarousel_data.stop(); }, function () { tinycarousel_data.start(); }
-    )
-});
-
-//项目展示---------------------------------------------------------------End

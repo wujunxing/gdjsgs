@@ -49,6 +49,7 @@
         $(this).find(".yy").stop(true, false).fadeTo(450, 0);
     })
 })
+
 function tabChange(obj, id) {
     var arrayli = obj.parentNode.getElementsByTagName("li"); 
     var arrayul = document.getElementById(id).getElementsByTagName("dl"); 

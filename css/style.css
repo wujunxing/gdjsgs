@@ -10,9 +10,8 @@ em,input{font-style:normal; margin:0px; padding:0px;}
 input,textarea{font-size:12px; outline:none; -moz-outline:none;}
 input{vertical-align:middle;}
 a{text-decoration:none; color:#747474;}
-a:hover{color:#155e37; _color:inherit; text-decoration:underline; }
+a:hover{color:#666; _color:inherit; text-decoration:underline; }
 p{margin:0; padding:0;}
-.qcfd{clear:both;}
 .clear{clear:both;}
 div, dl, dt, dd, ul, ol, li, form, input, textarea, select, p, h1, h2, h3, h4, h5, h6,font{color:#666; padding:0; margin:0;}
 em, i, del { font-weight:normal; font-style:normal;}
@@ -20,8 +19,6 @@ body{ background:#fff;color:#666; font: 12px/24px "微软雅黑",Arial,sans-seri
 img { border:0;}
 ol, ul { list-style:none;}
 li{ float:left;}
-a{color:#666;}
-a:hover{color:#155e37;}
 .hidden{ display:none;}
 .clear{zoom:1;}
 .clear:after{visibility:hidden;display:block;font-size:0;content:"1";clear:both;height:0;}
@@ -50,7 +47,7 @@ a:hover{color:#155e37;}
 .menu ul li.menu-f{ margin:0;line-height:38px; position:relative;}
 .menu ul li a{ display:block; text-decoration:none}
 .menu ul li a.on{color:#1e7145;}
-.menu .menuson{ position:absolute; top:38px; display:none }
+.menu .menuson{ position:absolute; top:38px; left:-25px; display:none }
 .menu .menuson .menuson-bit{ position:absolute; width:134px; height:13px; left:4px; top:0px; background:url(../images/menu_bg06.jpg) no-repeat; overflow:hidden;}
 .menu .menuson-one{ width:142px;}
 .menu .menuson-one .menuson-one-bot{ width:142px; height:18px; background:url(../images/menu_bg03.png) no-repeat; overflow:hidden;}
@@ -58,7 +55,7 @@ a:hover{color:#155e37;}
 .menu .menuson-one ul li{ width:100%; margin:0; line-height:36px; padding:0px; background:none; text-indent:15px; position:relative}
 .menu .menuson-one ul li a{ padding-left:0px;line-height:36px; background:url(../images/menu_bg01.jpg) no-repeat 0 -36px;}
 .menu .menuson-one ul li a:hover,.menu .menuson-one ul li a.hover{ background-position:0 1px; color:#fff;}
-.menu .menuson-two{ position:absolute; left:134px; top:0; width:131px; display:none; z-index:999}
+.menu .menuson-two{ position:absolute; left:130px; top:0; width:131px; display:none; z-index:999}
 .menu .menuson-top{width:123px; height:5px; background:url(../images/menu_bg09.png) repeat-x; position:absolute; left:4px; top:0; overflow:hidden}
 .menu .menuson-two .menuson-two-bot{ width:131px; height:18px; background:url(../images/menu_bg08.png) no-repeat; overflow:hidden;}
 .menu .menuson-two ul{padding:22px 4px 0;background:url(../images/menu_bg07.png) repeat-y;}
@@ -72,22 +69,8 @@ a:hover{color:#155e37;}
 .header-ri .search .txt{ width:160px; height:22px; border:none; background:none;}
 .header-ri .search .btn { width:18px; height:22px; background:none; border:none; cursor:pointer}
 
-/*banner*/
-.main_visual{position:relative; height:554px; overflow:hidden; background:url(../images/ban_bom.png) bottom center no-repeat;}
-.main_image {width:100%; height:554px; overflow:hidden; margin:0 auto; position:absolute; top:0; left:0; z-index:1}
-.main_image ul {width:9999px; height:554px; overflow:hidden;}
-.main_image li {float:left; width:100%; height:554px;}
-.main_image li span {display:block; width:100%; height:554px}
-.main_image li a {display:block; width:100%; height:554px}
-div.flicking_con {margin:0 auto; position:absolute; bottom:10px; left:50%; margin-left:-140px; z-index:9;}
-div.flicking_con .flicking_inner {height:6px; float:left;} /* 121126 */
-div.flicking_con a {float:left; width:60px; height:6px; margin:0; padding:0; margin-right:10px; display:block; background:#fff; cursor:pointer; z-index:9999}
-div.flicking_con a.on { padding:0px; background:#ff9900}
-#btn_prev,#btn_next{z-index:111; position:absolute; width:23px!important; height:45px!important; top:50%; margin-top:-22px; display:none;}
-#btn_prev{background:url(../images/left.png) no-repeat left top; left:50%; margin-left:-490px}
-#btn_prev:hover{background:url(../images/left.png) no-repeat left top; left:50%; margin-left:-490px}
-#btn_next{background:url(../images/right.png) no-repeat right top; right:50%; margin-right:-490px}
-#btn_next:hover{background:url(../images/right.png) no-repeat right top; right:50%; margin-right:-490px}
+
+
 
 .news_index{width:993px; height:91px; background:url(../images/news_bg.png) no-repeat; margin:auto; margin-top:1px}
 .news_index dl dt{width:125px; float:left; height:85px; background:url(../images/cates.png) 20px center no-repeat; font-size:16px; text-indent:50px; line-height:85px; color:#fff}

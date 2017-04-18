@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body style="padding:0px; margin:0px;">
+    <div id="a1" style="padding:0px; margin:0px;"></div>
+    <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+    <script type="text/javascript">
+	var flashvars={
+	    f: 'http://www.gdceg.com/data/video/cis.flv',
+	    c: 0,
+        p: 1
+	};
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+    CKobject.embedSWF('ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
+    </script>
+</body>
+</html>

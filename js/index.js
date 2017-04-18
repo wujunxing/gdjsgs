@@ -97,7 +97,7 @@ $("#videoclick").click(function () {
         shadeClose: false,
         shade: 0.8,
         area: ['600px', '400px'],
-        content: '/video_pro.html' //iframe的url
+        content: 'video_pro.html' //iframe的url
     });
 })
 

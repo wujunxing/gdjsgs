@@ -52,15 +52,15 @@ li{ float:left;}
 .menu .menuson-one{ width:142px;}
 .menu .menuson-one .menuson-one-bot{ width:142px; height:18px; background:url(../images/menu_bg03.png) no-repeat; overflow:hidden;}
 .menu .menuson-one ul{ padding:18px 4px 0; background:url(../images/menu_bg04.png) repeat-y;}
-.menu .menuson-one ul li{ width:100%; margin:0; line-height:36px; padding:0px; background:none; text-indent:15px; position:relative}
-.menu .menuson-one ul li a{ padding-left:0px;line-height:36px; background:url(../images/menu_bg01.jpg) no-repeat 0 -36px;}
-.menu .menuson-one ul li a:hover,.menu .menuson-one ul li a.hover{ background-position:0 1px; color:#fff;}
+.menu .menuson-one ul li{ width:100%; margin:0; height:36px; line-height:36px; padding:0px; background:none; text-indent:15px; position:relative}
+.menu .menuson-one ul li a{ padding-left:0px;  height:36px; line-height:36px; background:url(../images/menu_bg01.jpg) no-repeat 0 -36px;}
+.menu .menuson-one ul li a:hover,.menu .menuson-one ul li a.hover{ background-position:0 -1px; color:#fff;}
 .menu .menuson-two{ position:absolute; left:130px; top:0; width:131px; display:none; z-index:999}
 .menu .menuson-top{width:123px; height:5px; background:url(../images/menu_bg09.png) repeat-x; position:absolute; left:4px; top:0; overflow:hidden}
 .menu .menuson-two .menuson-two-bot{ width:131px; height:18px; background:url(../images/menu_bg08.png) no-repeat; overflow:hidden;}
 .menu .menuson-two ul{padding:22px 4px 0;background:url(../images/menu_bg07.png) repeat-y;}
-.menu .menuson-two ul li{width:100%; margin:0; line-height:28px; text-indent:10px}
-.menu .menuson-two ul li a{ padding-left:16px;line-height:28px; background:url(../images/menu_bg02.gif) no-repeat right -16px;}
+.menu .menuson-two ul li{width:100%; margin:0; height:28px; line-height:28px; text-indent:10px}
+.menu .menuson-two ul li a{ padding-left:16px; height:28px; line-height:28px; background:url(../images/menu_bg02.gif) no-repeat right -16px;}
 .menu .menuson-two ul li a:hover,.menu .menuson-two ul li a.hover{ background-position:right 12px; background-color: #b7b7b7;}
 
 .header-ri a{ font-family:Arial; font-weight:bold; color:#0a1b29}
@@ -555,15 +555,19 @@ li{ float:left;}
 .footerLink{ width:167px; height:22px; line-height:22px; background:url(../images/footerlinks.png) no-repeat; float:left; margin:10px 0px; display:inline; position:relative; z-index:199; cursor:pointer}
 .footerLink span{ padding-left:8px;}
 .footerLinkCon{ width:143px; padding:12px; background:#fff; border:1px solid #e7e7e7; border-radius:2px; position:absolute; bottom:22px; left:0; display:none}
-.footerLinkCon a{ display:inline-block; width:143px; font:12px/18px "微软雅黑"; color:#555; padding:3px 0 3px 10px; background:url(../images/sign-09_3x5_h.png) no-repeat left 10px}
-.footerLinkCon a:hover{ color:#155e37; background:url(../images/sign-09_3x5.png) no-repeat left 10px}
+.footerLinkCon a{ display:inline-block; width:143px; font:12px/18px "微软雅黑"; color:#336666; padding:3px 0 3px 10px; background:url(../images/sign-09_3x5_h.png) no-repeat left 10px}
+.footerLinkCon a:hover{ color:#ff9900; background:url(../images/sign-09_3x5.png) no-repeat left 10px}
 
+
+/*底部链接*/
 .links{width:100%; border-top:1px solid #eeeeee; background:url(../images/line_f.jpg) repeat-x; height:233px; margin-top:24px; padding-top:20px;}
-.links ul{width:1133px; margin:auto;}
-.links ul li{ width:100px; height:233px; background:url(../images/line_g.png) no-repeat right top; padding:0px 10px 0px 30px; }
-.links ul li h5{ font-size:14px; color:#656566; height:25px; line-height:25px; padding-bottom:6px}
-.links ul li h5 a{ font-size:14px; color:#656566;}
-.links ul li a{ height:20px; width:100%; line-height:20px; display:block; color:#969696; font-size:12px}
+.links .flinks{ display:block; width:993px; margin:auto;}
+.links .flinks div{ float:left; padding:0px 10px;}
+.links .flinks .firstitem{ background:none; padding-left:0px;}
+.links .flinks .firstitem img{width:150px; border:2px solid #eeeeee;}
+.links .flinks b{ font-size:14px; color:#656566; height:25px; line-height:25px; padding-bottom:6px}
+.links .flinks b a{ font-size:14px; color:#656566;}
+.links .flinks a{ display:block; height:20px; line-height:20px; padding:2px 20px; color:#969696; font-size:12px;}
 
 .footer{width:100%; height:40px; background:#2a2a2a; margin-top:1px;}
 .footer .lj{width:340px; height:40px; float:left; line-height:40px; font-size:12px;}

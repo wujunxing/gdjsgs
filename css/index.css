@@ -91,13 +91,13 @@
 
 /*news01*/
 #news01{
-    width:991px; margin:20px auto; height:85px; background:url(../images/news_bg.png) no-repeat;
+    width:991px; margin:1px auto 20px auto; height:85px; background:url(../images/news_bg.png) no-repeat;
 }
 #news01 .title01{
     float:left; width:120px; height:85px;
 }
 #news01 .title01 span{
-    display:block; width:80px; padding-left:26px; margin-top:26px;
+    display:block; width:80px; padding-left:26px; margin-top:26px; margin-left:16px;
     height:24px; line-height:24px; font-size:16px; color:#eeeeee;
     background-image:url(../images/hot.png); background-position:left center; background-repeat:no-repeat;
 }
@@ -114,10 +114,10 @@
         display:block; float:left; width:370px; height:65px; padding:10px; overflow:hidden;
     }
         #news_carousel .overview li a {
-            width:100%; height:32px; line-height:32px; display:block; color:#fff; text-decoration:none; background:url(../images/ico_li.png) left center no-repeat; overflow:hidden;
+            width:100%; height:32px; line-height:32px; display:block; color:#eeeeee; text-decoration:none; overflow:hidden;
         }
             #news_carousel .overview li a span{
-                width:85px; color:gray; text-align:center; display:block; margin:0px; padding:0px; margin-right:10px; float:left; background:url(../images/line1.png) right center no-repeat;
+                width:85px; color:#ff9900; text-align:center; display:block; margin:0px; padding:0px; float:left;
             }
 
 
@@ -125,14 +125,14 @@
         float:right; width:88px; height:60px; margin-top:10px;
     }
     #news_carousel .prev{
-        display:block; width:44px; height:60px; float:left;
+        display:block; width:26px; height:60px; float:left;
         background-image:url(../images/icon_prev.png); background-position:center center; background-repeat:no-repeat;
     }
         #news_carousel .prev:hover {
             background-image:url(../images/icon_prev_on.png);
         }
     #news_carousel .next{
-        display:block; width:44px; height:60px; float:left;
+        display:block; width:26px; height:60px; float:left;
         background-image:url(../images/icon_next.png); background-position:center center; background-repeat:no-repeat;
     }
         #news_carousel .next:hover{
